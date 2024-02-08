@@ -91,7 +91,6 @@ const perguntas= [
   },
 ];
 
-
 const quiz = document.querySelector('#quiz')
 const template = document.querySelector('template')
 
@@ -116,6 +115,9 @@ for(const item of perguntas) {
         if(estaCorreta){
           corretas.add(item)
         }
+        else{
+          
+        }
 
         mostrarTotal.textContent = corretas.size + 'de' + totalDePerguntas
     }
@@ -129,4 +131,9 @@ for(const item of perguntas) {
   quizItem.querySelector('dl dt').remove()
 
   quiz.appendChild(quizItem)
+
+
+
+  
 }
+
