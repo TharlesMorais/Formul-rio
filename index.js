@@ -1,97 +1,95 @@
-const perguntas= [
+const perguntas = [
   {
-    pergunta: "Qual é o nome do café onde os personagens de Friends costumam se encontrar?",
+    pergunta: "Qual é a função do comando 'console.log()' em JavaScript?",
     respostas: [
-      "Central Perk",
-      "Central Park Café",
-      "Perk Central",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "Qual é o nome do personagem interpretado por Jennifer Aniston?",
-    respostas: [
-      "Rachel Green",
-      "Monica Geller",
-      "Phoebe Buffay",
-    ],
-    correta: 0
-  },
-  {
-    pergunta: "O que Ross sempre diz quando faz um erro?",
-    respostas: [
-      "Oops!",
-      "My Bad!",
-      "Oh no!",
+      "Exibir uma mensagem de erro no console",
+      "Imprimir uma mensagem no console",
+      "Executar uma operação matemática",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é a profissão de Chandler Bing?",
+    pergunta: "Como se declara uma variável em JavaScript?",
     respostas: [
-      "Advogado",
-      "Contador",
-      "Publicitário",
-    ],
-    correta: 1
-  },
-  {
-    pergunta: "Qual é o nome do peixe de estimação de Ross?",
-    respostas: [
-      "Goldie",
-      "Nemo",
-      "Wanda",
+      "let = minhaVariavel;",
+      "variable minhaVariavel;",
+      "let minhaVariavel;",
     ],
     correta: 2
   },
   {
-    pergunta: "Qual é o sobrenome de Monica e Ross?",
+    pergunta: "O que é o DOM em JavaScript?",
     respostas: [
-      "Geller",
-      "Green",
-      "Bing",
+      "Um tipo de dado primitivo",
+      "Uma biblioteca popular",
+      "Uma representação da estrutura da página web",
+    ],
+    correta: 2
+  },
+  {
+    pergunta: "O que é uma função em JavaScript?",
+    respostas: [
+      "Um tipo de dado",
+      "Um bloco de código reutilizável",
+      "Um operador lógico",
+    ],
+    correta: 1
+  },
+  {
+    pergunta: "Como se comenta uma linha de código em JavaScript?",
+    respostas: [
+      "// Este é um comentário",
+      "'Este é um comentário'",
+      "/* Este é um comentário */",
     ],
     correta: 0
   },
   {
-    pergunta: "O que Joey sempre diz para se despedir?",
+    pergunta: "Qual é o operador de igualdade estrita em JavaScript?",
     respostas: [
-      "See you later!",
-      "How you doin'?",
-      "Goodbye!",
+      "==",
+      "===",
+      "!=",
     ],
     correta: 1
   },
   {
-    pergunta: "Qual é a profissão de Phoebe Buffay?",
+    pergunta: "O que significa a sigla 'AJAX' em JavaScript?",
     respostas: [
-      "Massagista",
-      "Chef",
-      "Música de rua",
+      "Asynchronous JavaScript and XML",
+      "Advanced JavaScript and XML",
+      "Asynchronous JSON and XML",
+    ],
+    correta: 0
+  },
+  {
+    pergunta: "O que é o evento 'click' em JavaScript?",
+    respostas: [
+      "Um tipo de dado",
+      "Um tipo de função",
+      "Uma ação do usuário ao clicar em um elemento",
     ],
     correta: 2
   },
   {
-    pergunta: "O que é 'Unagi', de acordo com Ross?",
+    pergunta: "Qual é a diferença entre 'let' e 'const' na declaração de variáveis?",
     respostas: [
-      "Uma fruta exótica",
-      "Um estado mental de paz",
-      "Conhecimento total de artes marciais",
+      "'let' é utilizado para constantes, e 'const' para variáveis mutáveis",
+      "'const' é utilizado para constantes, e 'let' para variáveis mutáveis",
+      "Não há diferença, ambos são usados da mesma forma",
     ],
-    correta: 2
+    correta: 1
   },
   {
-    pergunta: "Qual é a nacionalidade de Janice, a ex-namorada irritante de Chandler?",
+    pergunta: "O que é o JSON em JavaScript?",
     respostas: [
-      "Britânica",
-      "Canadense",
-      "Italiana",
+      "Uma biblioteca de gráficos",
+      "Um formato de dados leve e legível",
+      "Uma função de manipulação de strings",
     ],
-    correta: 2
+    correta: 1
   },
 ];
-
-
 
 
 const quiz = document.querySelector('#quiz')
