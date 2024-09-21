@@ -1,8 +1,9 @@
-# Formulario
+# Quiz da série Friends
+10 perguntas sobre a série Friends. Esse projeto trabalha bastante parte de CSS e de Javascript
 
-## Tecnologias Utilizadas
+## 🛠 Tecnologias utilizadas
 
 - HTML
 - CSS
 - JavaScript
-- Github
+- Git
